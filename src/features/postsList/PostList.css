@@ -1,0 +1,14 @@
+.topics {
+    padding: 20px 0;
+  }
+  .topics__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+  }

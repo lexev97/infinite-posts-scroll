@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  position: sticky;
+  top: 0;
+  background: radial-gradient(129% 218% at 10% 84%, #951b81 0%, #f9b44f 90%);
+  padding: 20px 40px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.header a:hover {
+  color: #f9b44f;
+}
+
+.header a:active {
+  color: white;
+}
+
+.header__heading {
+  margin: 0;
+  font-size: calc(20px + 0.3vw);
+}
