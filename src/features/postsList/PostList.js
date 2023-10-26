@@ -27,7 +27,7 @@ const PostList = () => {
   useEffect(() => {
     if (isMyFetchingDown) {
       setCurrentPostStart((prev) => {
-        return prev < (100 - windowOuterHeight / 60) ? prev + 2 : prev;
+        return prev < 100 - windowOuterHeight / 60 ? prev + 2 : prev;
       });
       setIsMyFetchingDown(false);
     }
@@ -45,7 +45,6 @@ const PostList = () => {
   console.log(currentPostStart);
 
   const scrollHandler = (e) => {
-    console.log(e.target.documentElement.scrollTop);
     if (e.target.documentElement.scrollTop < 30) {
       setIsMyFetchingUp(true);
     }
