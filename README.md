@@ -1,4 +1,4 @@
-# **Infinite Posts List**
+# **Infinite Posts Scroll**
 
 ### Обзор
 
