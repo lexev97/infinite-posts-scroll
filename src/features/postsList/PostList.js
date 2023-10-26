@@ -42,8 +42,6 @@ const PostList = () => {
     }
   }, [isMyFetchingUp]);
 
-  console.log(currentPostStart);
-
   const scrollHandler = (e) => {
     if (e.target.documentElement.scrollTop < 30) {
       setIsMyFetchingUp(true);
